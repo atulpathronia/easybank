@@ -126,6 +126,10 @@ a {
   .article-body {
     padding: 0 1rem;
   }
+
+  #blog img {
+    width: 80% !important;
+  }
 }
 
 /******************/
