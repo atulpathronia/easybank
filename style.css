@@ -1,3 +1,6 @@
+/******************/
+/* GLOBAL STYLES */
+/*****************/
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 
 :root {
@@ -10,9 +13,33 @@
   --White: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
+  overflow-x: hidden;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+}
+
+/******************/
+/* HERO SECTION */
+/*****************/
 
 #hero-right {
   background-image: url("/images/bg-intro-desktop.svg");
@@ -30,7 +57,10 @@ body {
     padding: 1rem;
   }
 }
-/* ******************/
+
+/******************/
+/* ABOUT SECTION*/
+/*****************/
 
 #about {
   background-color: var(--Light-Grayish-Blue);
@@ -50,6 +80,7 @@ body {
   #about {
     text-align: center;
   }
+
   .about-sub-heading {
     color: var(--Grayish-Blue);
     font-size: 0.8rem;
@@ -67,6 +98,10 @@ body {
   }
 }
 
+/******************/
+/* BLOG SECTION */
+/*****************/
+
 .blog-author-name {
   font-size: 0.6rem;
   color: var(--Dark-Blue);
@@ -82,7 +117,41 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
+  .article-body {
+    padding: 0 1rem;
+  }
+}
+
+/******************/
+/* FOOTER SECTION */
+/*****************/
+
+footer {
+  background-color: var(--Grayish-Blue);
+}
+
+.footer-nav,
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer-nav li a {
+  color: var(--White);
+}
+
+footer p {
+  color: var(--White);
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  footer {
     text-align: center;
   }
 }

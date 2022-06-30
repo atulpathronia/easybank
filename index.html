@@ -33,13 +33,13 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Careers</a>
@@ -121,7 +121,7 @@
 
 
   <div class="row justify-content-evenly pt-5 pb-5" id="blog">
-    <div class="col-md-2">
+    <div class="col-md-2 mb-3">
       <img src="/images/image-currency.jpg" alt="" srcset="" class="img-fluid">
       <p class="pt-3 blog-author-name"> By Claire Robinson
       </p>
@@ -130,7 +130,7 @@
         forced to only receive money in a single …
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 mb-3">
       <img src="/images/image-restaurant.jpg" alt="" srcset="" class="img-fluid">
       <p class="pt-3 blog-author-name"> By Wilson Hutton
       </p>
@@ -139,7 +139,7 @@
         realistic limits each month. That means you …
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-2 mb-3">
 
       <img src="/images/image-plane.jpg" alt="" srcset="" class="img-fluid">
       <p class="pt-3 blog-author-name">
@@ -152,22 +152,23 @@
 
       </p>
     </div>
-    <div class="col-md-2 ">
+    <div class="col-md-2 mb-3">
       <img src="/images/image-confetti.jpg" alt="" srcset="" class="img-fluid">
       <p class="pt-3 blog-author-name">
         By Claire Robinson</p>
       <h6 class="article-name"> Our invite-only Beta accounts are now live! </h6>
-      <p class="article-body"> After a lot of hard work by the whole team, we’re excited to launch our closed beta.
+      <p class="article-body"> After a lot of hard work by the whole team, we’re excited to launch our closed
+        beta.
         It’s easy to request an invite through the site ...
       </p>
     </div>
   </div>
 
 
-  <footer style="background-color: red">
-    <div class="row">
-      <div class="col-md-2">
-        <img src="/images/logo.svg" alt="" srcset="">
+  <footer>
+    <div class="row justify-content-evenly pt-5 pb-3">
+      <div class="col-md-2 d-flex flex-column justify-content-between align-items-center mb-3">
+        <img src="/images/logo.svg" alt="" srcset="" class="img-fluid pb-3" width="180px">
         <ul class="social-links">
           <li><a href=""><img src="/images/icon-facebook.svg" alt="" srcset=""></a></li>
           <li><a href=""><img src="/images/icon-instagram.svg" alt="" srcset=""></a></li>
@@ -176,46 +177,27 @@
           <li><a href=""><img src="/images/icon-youtube.svg" alt="" srcset=""></a></li>
         </ul>
       </div>
-      <div class="col-md-2"></div>
-      <div class="col-md-2"></div>
-      <div class="col-md-2"></div>
+      <div class="col-md-2 mb-3">
+        <ul class="footer-nav">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <ul class="footer-nav">
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 d-flex flex-column justify-content-between d-none d-lg-block">
+        <button class="btn btn-success rounded-pill mb-2" type="submit">Request Invite</button>
+        <p> © Easybank. <br> All Rights Reserved
+        </p>
+      </div>
     </div>
   </footer>
-
-
-
-
-
-
-
-
-
-
-  Latest Articles
-
-
-
-
-
-
-
-
-
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 
 </html>
