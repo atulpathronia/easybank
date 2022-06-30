@@ -98,6 +98,12 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .features-subheading {
+    padding: 0 1rem;
+  }
+}
+
 /******************/
 /* BLOG SECTION */
 /*****************/
